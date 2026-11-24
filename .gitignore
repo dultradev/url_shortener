@@ -1,0 +1,30 @@
+# Binários compilados
+mecly
+mecly.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+
+# Testes e cobertura Go
+*.test
+*.out
+coverage.html
+
+# Arquivos de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# Pasta temporária de planejamento e sincronização de issues locais
+issues/
+
+# IDEs, editores e SO
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
